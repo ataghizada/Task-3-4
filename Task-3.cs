@@ -8,7 +8,12 @@ for (int i = 2; i <= num; i *= 2)
     check = i;
 }
 
-if (check < num)
+
+if (check == 0)
+{
+    Console.WriteLine("Num sifirdir ve ya daxil edilmeyib");
+}
+else if (check < num)
 {
     Console.WriteLine("2-nin quvveti deyildir");
 }
